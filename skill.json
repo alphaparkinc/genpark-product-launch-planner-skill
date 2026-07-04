@@ -1,0 +1,57 @@
+{
+  "name": "product-launch-planner-skill",
+  "version": "1.0.0",
+  "description": "Generate a structured product launch plan with phased timelines, task checklists, owner assignments, and channel strategies for e-commerce launches.",
+  "author": "alphaparkinc",
+  "category": "planning",
+  "tags": [
+    "product-launch",
+    "planning",
+    "go-to-market",
+    "e-commerce",
+    "timeline"
+  ],
+  "inputs": {
+    "product_name": {
+      "type": "string",
+      "description": "Name of the product to launch."
+    },
+    "launch_date": {
+      "type": "string",
+      "description": "Target launch date in ISO format (YYYY-MM-DD)."
+    },
+    "channels": {
+      "type": "array",
+      "description": "Sales/marketing channels (e.g. ['shopify', 'amazon', 'instagram', 'email'])."
+    },
+    "budget_usd": {
+      "type": "number",
+      "description": "Total launch budget in USD."
+    },
+    "team_size": {
+      "type": "integer",
+      "description": "Number of team members available.",
+      "default": 3
+    }
+  },
+  "outputs": {
+    "phases": {
+      "type": "array",
+      "description": "Launch phases with start/end dates and task lists."
+    },
+    "total_tasks": {
+      "type": "integer",
+      "description": "Total number of launch tasks generated."
+    },
+    "budget_allocation": {
+      "type": "object",
+      "description": "Recommended budget split across channels and activities."
+    },
+    "launch_checklist": {
+      "type": "array",
+      "description": "Critical pre-launch checklist items."
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
