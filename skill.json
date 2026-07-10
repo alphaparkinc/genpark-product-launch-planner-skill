@@ -1,5 +1,5 @@
 {
-  "name": "product-launch-planner-skill",
+  "name": "genpark-product-launch-planner-skill",
   "version": "1.0.0",
   "description": "GenPark AI Agent Skill - Generate a structured product launch plan with phased timelines, task checklists, owner assignments, and channel strategies for e-commerce launches.",
   "author": "genpark",
