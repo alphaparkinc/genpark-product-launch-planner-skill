@@ -1,4 +1,4 @@
-# product-launch-planner-skill
+# genpark-product-launch-planner-skill
 
 > **GenPark AI Agent Skill** -- Generate structured product launch plans with phased timelines, task checklists, and budget allocations.
 
